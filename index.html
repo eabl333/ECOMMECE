@@ -1417,6 +1417,22 @@
                 min-height: 140px;
             }
         }
+
+        .mockup-screen.mockup-advocacia {
+    background: linear-gradient(135deg, #1a1a2e, #16213e);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: #e0e0e0;
+    font-weight: 600;
+}
+
+.mockup-screen.mockup-advocacia i {
+    font-size: 2.5rem;
+    color: #c9a53b;
+}
     </style>
 </head>
 <body>
@@ -1548,6 +1564,18 @@ SEÇÃO SERVIÇOS
                 <h3>Sorveterias</h3>
                 <p>Mostre seus sabores, promoções e localização de forma colorida e irresistível.</p>
             </div>
+            <!-- Serviço 6 - Advocacia -->
+            <div class="service-card fade-in fade-in-delay-4">
+                <div class="service-icon"><i class="fa-solid fa-gavel"></i></div>
+                <h3>Advocacias</h3>
+                <p>Site profissional com áreas de atuação, apresentação da equipe e formulário para captação de clientes.</p>
+            </div>
+             <!-- Serviço 7 - Academia -->
+            <div class="service-card fade-in fade-in-delay-4">
+                <div class="service-icon"><i class="fa-solid fa-dumbbell"></i></div>
+                <h3>Academias</h3>
+                <p>Planos de treino, calendário de aulas, gestão de alunos e sistema de check-in integrado.</p>
+            </div>
         </div>
     </div>
 </section>
@@ -1565,7 +1593,7 @@ SEÇÃO PORTFÓLIO (E-COMMERCE STYLE)
             <div class="portfolio-card fade-in fade-in-delay-1">
                 <div class="portfolio-image">
                     <span class="category-badge">Pizzaria</span>
-                    <span class="price-tag">R$ 497</span>
+                    <span class="price-tag">R$ 599</span>
                     <div class="mockup-screen mockup-pizzaria">
                         <i class="fa-solid fa-pizza-slice"></i>
                         <span>Bella Napoli</span>
@@ -1586,7 +1614,7 @@ SEÇÃO PORTFÓLIO (E-COMMERCE STYLE)
         <div class="portfolio-card fade-in fade-in-delay-2">
             <div class="portfolio-image">
                 <span class="category-badge">Loja</span>
-                <span class="price-tag">R$ 397</span>
+                <span class="price-tag">R$ 499</span>
                 <div class="mockup-screen mockup-loja">
                     <i class="fa-solid fa-bag-shopping"></i>
                     <span>Fashion Style</span>
@@ -1607,7 +1635,7 @@ SEÇÃO PORTFÓLIO (E-COMMERCE STYLE)
     <div class="portfolio-card fade-in fade-in-delay-3">
         <div class="portfolio-image">
             <span class="category-badge">Barbearia</span>
-            <span class="price-tag">R$ 347</span>
+            <span class="price-tag">R$ 447</span>
             <div class="mockup-screen mockup-barbearia">
                 <i class="fa-solid fa-scissors"></i>
                 <span>Premium Barber</span>
@@ -1628,7 +1656,7 @@ SEÇÃO PORTFÓLIO (E-COMMERCE STYLE)
 <div class="portfolio-card fade-in fade-in-delay-4">
     <div class="portfolio-image">
         <span class="category-badge">Lanchonete</span>
-        <span class="price-tag">R$ 297</span>
+        <span class="price-tag">R$ 489</span>
         <div class="mockup-screen mockup-lanchonete">
             <i class="fa-solid fa-burger"></i>
             <span>Sabor & Arte</span>
@@ -1649,7 +1677,7 @@ SEÇÃO PORTFÓLIO (E-COMMERCE STYLE)
 <div class="portfolio-card fade-in fade-in-delay-5">
     <div class="portfolio-image">
         <span class="category-badge">Sorveteria</span>
-        <span class="price-tag">R$ 327</span>
+        <span class="price-tag">R$ 399</span>
         <div class="mockup-screen mockup-sorveteria">
             <i class="fa-solid fa-ice-cream"></i>
             <span>Gelato Italiano</span>
@@ -1666,11 +1694,32 @@ SEÇÃO PORTFÓLIO (E-COMMERCE STYLE)
 </div>
 </div>
 
+<!-- Card 4 - Advocacia -->
+<div class="portfolio-card fade-in fade-in-delay-4">
+    <div class="portfolio-image">
+        <span class="category-badge">advocacia</span>
+        <span class="price-tag">R$ 699</span>
+        <div class="mockup-screen mockup-advocacia">
+            <i class="fa-solid fa-gavel"></i>
+            <span>Dr. Silva & Advogados</span>
+        </div>
+    </div>
+    <div class="portfolio-body">
+        <h3>Silva & Advogados Associados</h3>
+        <p class="type">Site para Advocacia</p>
+        <p class="description">Site profissional com apresentação da equipe, áreas de atuação e formulário de contato. Ideal para captar clientes.</p>
+        <a href="https://wa.me/5567996866306?text=Ol%C3%A1%20Erick!%20Tenho%20interesse%20no%20site%20para%20Advocacia.%20Pode%20me%20dar%20mais%20informa%C3%A7%C3%B5es%3F"
+        target="_blank" rel="noopener" class="btn btn-whatsapp">
+        <i class="fa-brands fa-whatsapp"></i> Quero esse site
+    </a>
+</div>
+</div>
+
 <!-- Card 6 - Academia -->
 <div class="portfolio-card fade-in fade-in-delay-2">
     <div class="portfolio-image">
         <span class="category-badge">Academia</span>
-        <span class="price-tag">R$ 447</span>
+        <span class="price-tag">R$ 497</span>
         <div class="mockup-screen mockup-academia">
             <i class="fa-solid fa-dumbbell"></i>
             <span>Fit Life</span>
@@ -1823,14 +1872,17 @@ FOOTER
         <div class="footer-social">
             <a href="https://wa.me/5567996866306" target="_blank" rel="noopener" aria-label="WhatsApp">
                 <i class="fa-brands fa-whatsapp"></i>
+            </a> 
+            <a href="https://www.facebook.com/share/1FnrvTphWy/" target="_blank" rel="noopener" aria-label="Facebook">
+                <i class="fa-brands fa-facebook"></i>
             </a>
             <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram">
                 <i class="fa-brands fa-instagram"></i>
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/erick-aparecido-664195382?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener" aria-label="LinkedIn">
                 <i class="fa-brands fa-linkedin-in"></i>
             </a>
-            <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub">
+            <a href="https://share.google/TZ9ir6aayza6jWY4q" target="_blank" rel="noopener" aria-label="GitHub">
                 <i class="fa-brands fa-github"></i>
             </a>
         </div>
